@@ -1,0 +1,40 @@
+/* Travel journal visual system, applied with OpenDesign frontend-design. */
+:root{--ink:#24483e;--muted:#63746c;--line:#dfdfd3;--paper:#f6f3eb;--blue:#eaf0e7;--accent:#386c57}
+body{background:var(--paper)}
+.sidebar{background:#fffefa;border-right-color:#d9ddd1}
+.brandmark{background:#24483e;border-radius:0 9px 9px 0}
+.sidebar nav a.active{background:#24483e;color:#fffefa}
+.sidebar nav a:hover:not(.active){background:#f0f2e9;color:#24483e}
+.topbar{background:#f6f3eb;border-bottom-style:dashed}
+.page-heading h1,.day-header h2,.view-heading h2{font-family:'Noto Serif KR',serif;letter-spacing:-.8px}
+.page-heading h1{font-size:32px}
+.banner{height:112px;border-radius:3px}
+.banner:after{background:linear-gradient(90deg,#203e35e8,#203e3540)}
+.banner>div{padding-top:13px}
+.days{gap:5px;border:0;background:transparent;border-radius:0}
+.days button{background:#fffefa;border:1px solid var(--line)!important;border-radius:4px;padding:13px 12px;transition:background .15s,color .15s}
+.days button[aria-selected=true]{background:#24483e;border-color:#24483e!important;box-shadow:inset 0 -3px #c49562}
+.day-header{border-bottom:1px solid var(--line);padding-bottom:15px}
+.day-note{background:#f1e8da;border-left-color:#a85838;color:#76543d;border-radius:0 4px 4px 0}
+.event-card,.side-card,.info-card,.flight,.restaurant-card,.packing-card{background:#fffefa;border-radius:5px;box-shadow:0 2px 5px #24483e04}
+.event-time{font-variant-numeric:tabular-nums;letter-spacing:.2px}
+.event-body h3{font-size:18px}
+.event-card.checked{background:#eaf0e7}
+.category{border-radius:3px}
+.category.food{background:#f3e6da;color:#884d32}
+.button{background:#fffefa;border-radius:4px;transition:background .15s,border-color .15s}
+.button:hover{background:#eaf0e7;border-color:#386c57}
+.button.primary{background:#24483e;color:#fffefa}
+.button.primary:hover{background:#356351}
+.aside-note{background:#e8eddf;border-top:3px solid #9eac86}
+.restaurant-tag{background:#eaf0e7;color:#386c57}
+.restaurant-filters button[aria-pressed=true]{background:#24483e;border-color:#24483e;color:white}
+.restaurant-signature{color:#a85838}
+.restaurant-content{padding:25px}
+.restaurant-actions{border-top:1px solid var(--line)}
+.packing-item input{accent-color:#386c57}
+.packing-card h3{color:#24483e}
+button:focus-visible,a:focus-visible,input:focus-visible{outline:3px solid #a85838;outline-offset:4px}
+@media(max-width:900px){.sidebar{background:#fffefa}.sidebar nav a{min-height:44px}.days button{min-width:100px}.topbar{height:42px}}
+@media(max-width:650px){.page-heading h1{font-size:26px}.banner{height:120px}.banner>div{padding:16px 20px}.event-body h3{font-size:17px}.restaurant-content{padding:21px}.day-header h2{font-size:22px}.event-links .button{min-height:38px}.restaurant-actions .button{min-height:42px}}
+@media(prefers-reduced-motion:reduce){.button,.days button{transition:none}}

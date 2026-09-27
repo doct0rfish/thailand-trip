@@ -1,0 +1,43 @@
+:root{--ink:#142b50;--accent:#1765e8;--blue:#eaf2ff;--paper:#f3f6fb;--line:#dce5f1;--muted:#596c85}.sidebar{background:#fff}.sidebar nav a.active{background:#1765e8;color:white}.brandmark{background:#1765e8;border-radius:12px}.banner{display:none}.page-heading h1{font-family:'Noto Sans KR',sans-serif}.days{border:0;background:transparent;gap:8px}.days button{border:1px solid #dce5f1;border-radius:12px}.days button[aria-selected=true]{background:#1765e8}.event-card,.flight,.side-card,.restaurant-card{border-radius:16px;box-shadow:0 4px 16px #24528a08}.flight strong{color:#1765e8}.day-note{background:#eaf2ff;border-color:#1765e8;color:#365b8b}.button.primary{background:#1765e8;border-color:#1765e8}.flight{border-top:5px solid #1765e8}.aside-note{background:#eaf2ff}
+/* SEED references: action hierarchy, selected tabs, labeled checkbox controls.
+   Adapted to static HTML; no SEED runtime dependency. */
+:root{--surface:#fff;--pressed:#dce8fc;--focus:#124ab0;--radius-control:10px}
+.page-heading h1,.view-heading h2,.day-header h2,.aside-note h3{font-family:'Noto Sans KR',sans-serif}
+.sidebar nav a{border-radius:var(--radius-control);min-height:48px}
+.sidebar nav a:hover:not(.active){background:#eaf2ff;color:#124ab0}
+.days button{position:relative;min-height:96px;transition:background .15s,color .15s}
+.days button[aria-selected=true]{box-shadow:inset 0 -4px #0c3f9d}
+.days button[aria-selected=true] .date{font-weight:700}
+.days button:last-child{border-right:1px solid var(--line)}
+.button,.event-links .button,.restaurant-actions .button{display:inline-flex;align-items:center;justify-content:center;min-height:44px;padding:9px 14px;border-radius:var(--radius-control);font-size:14px;font-weight:600;line-height:1.5}
+.button:not(.primary){background:#eef2f6;border-color:transparent;color:#263c59}
+.button:not(.primary):hover{background:#e1e8f0}
+.button.primary:hover{background:#1056ca}
+.button:active:not(:disabled),.restaurant-filters button:active{transform:translateY(1px)}
+.button.primary:active{background:#0e47a7}
+button:disabled{opacity:.45;cursor:not-allowed}
+button:focus-visible,a:focus-visible,input:focus-visible{outline:3px solid var(--focus);outline-offset:3px}
+.restaurant-filters button{min-height:44px;border-radius:22px;border-color:#dce5f1;color:#334a68;background:white}
+.restaurant-filters button[aria-pressed=true]{background:#eaf2ff;border-color:#1765e8;color:#124ab0;box-shadow:inset 0 0 0 1px #1765e8;font-weight:700}
+.restaurant-tag{background:#eaf2ff;color:#124ab0}
+.restaurant-signature{color:#334a68}
+.restaurant-details{display:inline-flex;align-items:center;min-height:44px}
+.restaurant-content{padding:24px}
+.check-label{min-height:44px;padding:4px 8px;border-radius:8px}
+.check-label:hover{background:#eaf2ff}
+.check-label input,.packing-item input{width:20px;height:20px;accent-color:#1765e8;flex-shrink:0}
+.packing-item{min-height:48px;padding:10px 12px;border-radius:8px;gap:12px;cursor:pointer}
+.packing-item:hover{background:#f0f5fc}
+.packing-item:has(input:checked){background:#eaf2ff;color:#124ab0}
+.packing-card,.info-card,.packing-summary{border-radius:16px;background:white}
+.event-card.checked{background:#edf4ff}
+.event-card.checked h3{color:#3e608b}
+.event-time,.flight-times{font-variant-numeric:tabular-nums}
+.category{border-radius:6px}
+.day-note{border-radius:0 10px 10px 0}
+.day-bottom button{min-height:44px;padding:8px 12px;border-radius:8px}
+.day-bottom button:hover:not(:disabled){background:#eaf2ff}
+.side-card .button{display:flex}
+@media(max-width:650px){.event-top{flex-wrap:wrap;gap:6px}.event-time{font-size:13px}.check-label{font-size:11px;padding:4px}.restaurant-actions{gap:8px}.restaurant-content{padding:20px}.days button{min-width:100px}.page-heading h1{font-size:26px}}
+@media(prefers-reduced-motion:reduce){.days button{transition:none}.button:active:not(:disabled),.restaurant-filters button:active{transform:none}}
+
