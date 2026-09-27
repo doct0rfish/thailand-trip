@@ -45,71 +45,55 @@ const days=[
   {
     "date": "10.15",
     "week": "목",
-    "city": "방콕",
-    "title": "뮤지엄에서 카오산까지",
+    "city": "방콕 → 아유타야",
+    "title": "아유타야 사원과 선셋",
     "icon": "🛕",
-    "summary": "뮤지엄 시암 → 왕궁 → 왓아룬 → 카오산로드",
+    "summary": "아속역 집결 → 왓 야이차이 몽골 → 왓 마하탓 → 야시장 → 선셋 보트 → 왓 차이왓타라남 → 아속역",
     "events": [
       [
-        "08:30",
-        "기상",
-        ""
+        "14:20",
+        "아속역 로빈슨 백화점 맥도날드",
+        "아유타야 투어 집결 장소 · 출발 전 미팅 위치 확인"
       ],
       [
-        "09:30–10:20",
-        "브런치",
-        "숙소 근처에서 든든하게 먹고 출발 · 식당 미정",
+        "14:30–15:30",
+        "아유타야 이동",
+        "방콕에서 아유타야로 이동"
+      ],
+      [
+        "15:30–16:15",
+        "왓 야이차이 몽골",
+        "커다란 종 모양 불탑과 와불상이 대표적인 사원이에요. 높은 기단 위에 솟은 불탑이 아유타야의 랜드마크로 꼽혀요.",
+        "h"
+      ],
+      [
+        "16:15–17:15",
+        "왓 마하탓 사원",
+        "나무뿌리에 감싸인 불두로 유명한 사원 유적이에요. 과거 부처의 사리를 모시고 중요한 왕실 불교 의식을 치르던 곳이에요.",
+        "h"
+      ],
+      [
+        "17:15–17:45",
+        "야시장",
+        "아유타야 야시장 구경과 간단한 먹거리 · 시장명은 투어 안내에서 확인",
         "food"
-      ],
-      [
-        "10:30–11:45",
-        "뮤지엄 시암",
-        "에어컨이 있는 실내 전시 관람 · 목요일 10:00 개관",
-        "h"
-      ],
-      [
-        "11:45–12:30",
-        "왕궁 이동 · 입장 준비",
-        "뮤지엄 시암에서 왕궁으로 이동 · 복장과 입장권 확인"
-      ],
-      [
-        "12:30–14:45",
-        "왕궁 + 왓 프라깨우 투어",
-        "오후 입장 · 왕궁 운영 변경 여부는 전날 다시 확인",
-        "h"
-      ],
-      [
-        "14:45–15:20",
-        "타띠엔 → 강 건너 왓아룬",
-        "왕궁에서 타띠엔 선착장으로 이동한 뒤 보트 탑승"
-      ],
-      [
-        "15:20–16:50",
-        "왓아룬 관광",
-        "강변 사원 둘러보기 · 당일 운영시간 확인",
-        "h"
-      ],
-      [
-        "16:50–18:00",
-        "타띠엔에서 왓아룬 일몰 + 야경",
-        "강을 건너 돌아와 휴식하며 왓아룬 전망 감상",
-        "h"
       ],
       [
         "18:00–18:30",
-        "카오산로드 이동",
-        "택시 또는 툭툭 · 교통 상황에 따라 변동"
+        "아유타야 선셋 보트 투어",
+        "강 위에서 해 질 무렵 아유타야 풍경을 감상해요.",
+        "h"
       ],
       [
-        "18:30–22:00",
-        "카오산로드 구경 · 저녁 · 맥주",
-        "람부뜨리와 카오산로드를 둘러보며 현장에서 식당 선택",
-        "food"
+        "18:30–18:50",
+        "왓 차이왓타라남 · 외부 사진 촬영",
+        "차오프라야강 변에 자리한 크메르 양식의 사원이에요. 강과 어우러진 사원 전경이 인상적이며, 이번 일정은 입장하지 않고 외부에서 사진만 촬영해요.<br><br><a target=\"_blank\" rel=\"noreferrer\" href=\"https://www.tourismthailand.org/Articles/nine-temples-in-ayutthaya-exotic-pilgrimage-in-the-historical-city\">사원 소개 · 태국관광청 ↗</a>",
+        "h"
       ],
       [
-        "22:00 이후",
-        "호텔 복귀",
-        "카오산로드에서 숙소로 이동"
+        "18:50–20:30",
+        "아속역 로빈슨 백화점 맥도날드 도착",
+        "아유타야에서 방콕으로 복귀 · 20:30 도착 예정"
       ]
     ]
   },
@@ -240,49 +224,70 @@ const days=[
     "date": "10.19",
     "week": "월",
     "city": "파타야 → 방콕",
-    "title": "다시 만나는 방콕",
+    "title": "방콕 복귀와 왕궁 산책",
     "icon": "🌃",
-    "summary": "선빔 호텔 체크아웃 → 방콕 복귀 → 나나역·아속역 숙소 → 저녁·루프탑",
+    "summary": "파타야 → 방콕 → 왕궁 → 왓아룬 → 카오산로드",
     "events": [
       [
-        "아침",
-        "아침 식사 · 짐 정리",
-        "체크아웃 준비",
-        "food"
-      ],
-      [
-        "호텔 퇴실시간에 맞춰",
-        "선빔 호텔 체크아웃",
-        "정확한 퇴실시간 확인 필요"
+        "이른 아침 · 시간 미정",
+        "아침 식사 · 선빔 호텔 체크아웃",
+        "12:30 왕궁 투어를 위해 파타야에서 이른 출발 필요 · 이동편과 정확한 출발 시각 미정"
       ],
       [
         "체크아웃 후",
         "파타야 → 방콕",
-        "이동편 미정 · 출발 시각에 따라 도착 시간 변동",
+        "이동편 미정 · 도로 상황에 따라 소요 시간 변동",
         "h"
       ],
       [
-        "방콕 도착 후",
-        "호텔 이동 · 체크인",
-        "나나역 또는 아속역 주변 숙소 후보 · 호텔 미정"
-      ],
-      [
-        "체크인 후",
-        "식사 · 카페 · 휴식",
-        "도착 시간에 맞춰 조정",
+        "왕궁 방문 전",
+        "방콕 호텔 짐 보관 · 점심",
+        "나나역 또는 아속역 주변 숙소 후보 · 호텔 및 식당 미정 · 짐 보관 가능 여부 확인",
         "food"
       ],
       [
-        "저녁",
-        "방콕 저녁 식사",
-        "식당 미정",
-        "food"
+        "11:45–12:30 예정",
+        "왕궁 이동 · 입장 준비",
+        "파타야에서 방콕 도착 후 이동 · 도착 시간에 따라 조정"
       ],
       [
-        "저녁 식사 후",
-        "루프탑 · 야경",
-        "장소 미정",
+        "12:30–14:45",
+        "왕궁 + 왓 프라깨우 투어",
+        "10/15에서 옮긴 일정 · 파타야 복귀 시간과 왕궁 당일 운영 여부에 따라 조정",
         "h"
+      ],
+      [
+        "14:45–15:20",
+        "타띠엔 → 강 건너 왓아룬",
+        "왕궁에서 타띠엔 선착장으로 이동한 뒤 보트 탑승"
+      ],
+      [
+        "15:20–16:50",
+        "왓아룬 관광",
+        "강변 사원 둘러보기 · 당일 운영시간 확인",
+        "h"
+      ],
+      [
+        "16:50–18:00",
+        "타띠엔에서 왓아룬 일몰 + 야경",
+        "강을 건너 돌아와 휴식하며 왓아룬 전망 감상",
+        "h"
+      ],
+      [
+        "18:00–18:30",
+        "카오산로드 이동",
+        "택시 또는 툭툭 · 교통 상황에 따라 변동"
+      ],
+      [
+        "18:30–22:00",
+        "카오산로드 구경 · 저녁 · 맥주",
+        "람부뜨리와 카오산로드를 둘러보며 현장에서 식당 선택",
+        "food"
+      ],
+      [
+        "22:00 이후",
+        "호텔 복귀",
+        "카오산로드에서 숙소로 이동"
       ]
     ]
   },
@@ -389,8 +394,9 @@ delete visits['1-7'];localStorage.setItem('thai-trip-visits',JSON.stringify(visi
 try{if(!localStorage.getItem('thai-trip-pattaya-v4')){for(const key of Object.keys(visits)){if(/^[2-5]-/.test(key))delete visits[key]}localStorage.setItem('thai-trip-visits',JSON.stringify(visits));localStorage.setItem('thai-trip-pattaya-v4','1')}}catch{storageOK=false}
 try{if(!localStorage.getItem('thai-trip-oldtown-v5')){for(const key of Object.keys(visits)){if(/^[01]-/.test(key))delete visits[key]}localStorage.setItem('thai-trip-visits',JSON.stringify(visits));localStorage.setItem('thai-trip-oldtown-v5','1')}}catch{storageOK=false}
 try{if(!localStorage.getItem('thai-trip-je-nong-v6')){for(const key of Object.keys(visits)){if(/^2-/.test(key))delete visits[key]}localStorage.setItem('thai-trip-visits',JSON.stringify(visits));localStorage.setItem('thai-trip-je-nong-v6','1')}}catch{storageOK=false}
-const places=[[/인천.*출발|인천공항 도착/,'Incheon International Airport','인천국제공항 · ICN'],[/수완나품|방콕 → 인천 출발/,'Suvarnabhumi Airport','수완나품공항 · BKK'],[/뮤지엄 시암/,'Museum Siam Bangkok','Museum Siam'],[/카오산/,'Khao San Road Bangkok','Khao San Road'],[/왕궁/,'The Grand Palace Bangkok','The Grand Palace · Wat Phra Kaew'],[/타띠엔/,'Tha Tien Pier Bangkok','Tha Tien Pier'],[/왓아룬/,'Wat Arun Bangkok','Wat Arun'],[/야오와랏|차이나타운/,'Yaowarat Road Bangkok','Yaowarat Road'],[/Je Nong/,'Je Nong Seafood Saphan Yao Na Kluea Pattaya','Je Nong Seafood · Saphan Yao','https://maps.app.goo.gl/gajy4Vks6cHzBsCf7','https://www.google.com/maps/dir/?api=1&destination=Je+Nong+Seafood+Saphan+Yao+Na+Kluea+Pattaya'],[/센트럴월드/,'centralwOrld Bangkok','Siam → centralwOrld']];
-const notes=["방콕 도착 후 호텔에서 쉬고, 저녁은 차이나타운에서 여러 음식을 나눠 먹어요.","오전에 뮤지엄 시암을 관람하고 브런치로 식사를 해결해요. 오후에는 왕궁과 왓아룬을 보고 카오산로드에서 저녁과 맥주를 즐겨요.","에까마이 동부버스터미널에서 좀티엔 버스터미널로 이동해요. 버스 출발 시간은 미정이며, 15:00 선빔 호텔 체크인 후 샤워와 짐 정리. Je Nong Seafood에서 해산물을 먹고 워킹스트리트를 둘러봐요.","해양 액티비티는 12:00까지 예정. 근처에서 식사하고 1시간 쉬어가요.","13:00 짚라인·ATV 예정. 활동이 끝난 뒤 식사하고 숙소에서 쉬어요.","선빔 호텔 퇴실시간에 맞춰 체크아웃한 뒤 방콕으로 돌아가요. 마지막 숙소는 나나역 또는 아속역 주변에서 고를 예정이에요.","17:30 호텔에서 짐 찾기 → 20:00 공항 이동 → 23:30 TG656 출국.","06:55 인천 도착. 한국 현지 시간 기준입니다."];
+try{if(!localStorage.getItem('thai-trip-ayutthaya-v7')){for(const key of Object.keys(visits)){if(/^(1|5)-/.test(key))delete visits[key]}localStorage.setItem('thai-trip-visits',JSON.stringify(visits));localStorage.setItem('thai-trip-ayutthaya-v7','1')}}catch{storageOK=false}
+const places=[[/로빈슨 백화점/,'McDonalds Robinson Sukhumvit Bangkok','아속역 · Robinson Sukhumvit'],[/왓 야이차이/,'Wat Yai Chai Mongkhon Ayutthaya','Wat Yai Chai Mongkhon'],[/왓 마하탓/,'Wat Mahathat Ayutthaya','Wat Mahathat · Ayutthaya'],[/왓 차이왓타라남/,'Wat Chaiwatthanaram Ayutthaya','Wat Chaiwatthanaram'],[/인천.*출발|인천공항 도착/,'Incheon International Airport','인천국제공항 · ICN'],[/수완나품|방콕 → 인천 출발/,'Suvarnabhumi Airport','수완나품공항 · BKK'],[/뮤지엄 시암/,'Museum Siam Bangkok','Museum Siam'],[/카오산/,'Khao San Road Bangkok','Khao San Road'],[/왕궁/,'The Grand Palace Bangkok','The Grand Palace · Wat Phra Kaew'],[/타띠엔/,'Tha Tien Pier Bangkok','Tha Tien Pier'],[/왓아룬/,'Wat Arun Bangkok','Wat Arun'],[/야오와랏|차이나타운/,'Yaowarat Road Bangkok','Yaowarat Road'],[/Je Nong/,'Je Nong Seafood Saphan Yao Na Kluea Pattaya','Je Nong Seafood · Saphan Yao','https://maps.app.goo.gl/gajy4Vks6cHzBsCf7','https://www.google.com/maps/dir/?api=1&destination=Je+Nong+Seafood+Saphan+Yao+Na+Kluea+Pattaya'],[/센트럴월드/,'centralwOrld Bangkok','Siam → centralwOrld']];
+const notes=["방콕 도착 후 호텔에서 쉬고, 저녁은 차이나타운에서 여러 음식을 나눠 먹어요.","14:20 아속역 로빈슨 백화점 맥도날드 집결. 안내받은 투어 시간표 기준이며, 사원 관람 후 야시장·선셋 보트를 즐기고 20:30 아속역으로 돌아와요.","에까마이 동부버스터미널에서 좀티엔 버스터미널로 이동해요. 버스 출발 시간은 미정이며, 15:00 선빔 호텔 체크인 후 샤워와 짐 정리. Je Nong Seafood에서 해산물을 먹고 워킹스트리트를 둘러봐요.","해양 액티비티는 12:00까지 예정. 근처에서 식사하고 1시간 쉬어가요.","13:00 짚라인·ATV 예정. 활동이 끝난 뒤 식사하고 숙소에서 쉬어요.","왕궁·왓아룬·카오산 일정을 10/15에서 옮겼어요. 파타야에서 이른 출발이 필요하며, 왕궁 시간은 방콕 도착 시각과 당일 운영에 맞춰 조정해요. 숙소는 나나역 또는 아속역 주변에서 고를 예정이에요.","17:30 호텔에서 짐 찾기 → 20:00 공항 이동 → 23:30 TG656 출국.","06:55 인천 도착. 한국 현지 시간 기준입니다."];
 function type(e){if(e[3]==='food'||/먹방/.test(e[1]))return ['맛집','food'];if(/호텔|체크/.test(e[1]))return ['숙소',''];if(/공항|출발|이동|→/.test(e[1]))return ['이동',''];if(/기상|휴식/.test(e[1]))return ['휴식',''];return ['관광','']}
 function place(e){return places.find(p=>p[0].test(e[1]))}
 function progress(){const total=days[selected].events.length;const count=days[selected].events.filter((_,i)=>visits[`${selected}-${i}`]).length;document.querySelector('#progress-count').textContent=`${count} / ${total}`;document.querySelector('#progress').max=total;document.querySelector('#progress').value=count;document.querySelector('#storage-note').textContent=storageOK?'방문 체크는 이 기기에만 저장돼요.':'이 브라우저에서는 방문 체크를 저장할 수 없어요.'}
